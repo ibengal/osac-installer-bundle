@@ -1,0 +1,22 @@
+# Private installer inputs
+/inputs/
+/osac-inputs/
+ci-token.txt
+license.zip
+pull-secret*.json
+rhsm-activation-key.txt
+host.repo
+
+# Keys, certificates, and cluster credentials
+*.key
+*.pem
+*.crt
+*.kubeconfig
+.kube/
+
+# Installer state and runtime output
+.ocp-installer-state/
+.astra-osac-state/
+*.log
+*.status
+*.tsv
